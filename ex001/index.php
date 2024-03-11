@@ -8,9 +8,13 @@
 <body>
     <h1>Exemplo de PHP</h1>
     <?php
-        date_default_timezone_set("America/Sao_Paulo"); // gmt - 3
-        echo "Hoje é dia " . date("d/M/Y");
-        echo " e a hora atual e " . date("G:i:s");
+        
+        $nome = "Lemuel";
+        $snome = "Cavalcante";
+        $apelido = "DEvzao";
+
+        echo "$nome \'$apelido\' $snome";
+
     ?>
 </body>
 </html>
